@@ -8,6 +8,10 @@ When the command terminates normally (no unhandled exception), clean up process 
 
 This issue has been addressed by [@jmcdo29](https://github.com/jmcdo29) with the release of version 3.6.0, but there is a small bug in the fix in applying the `serviceErrorHandler` option. The `simple` command should print "My error handler" when handling the unhandled exception, but it doesn't because the option wasn't read properly.
 
+## [Update] 3 March 2023
+
+This issue has been fully fixed with the release of version 3.6.1.
+
 ## Installation
 
 ```bash
